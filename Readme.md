@@ -1,6 +1,6 @@
 # NewsScraper
 ![Screenshot](public/Scraper.PNG)
-## The program feteches the latest amharic news from ethiopianreporter.com and bbc amharic
+## The app fetches the latest amharic news from ethiopianreporter.com and bbc amharic
 
 - The files found in /app are the main front-end components, which were made 
 using custom PHP MVC framework. These components fetch news data from the database
