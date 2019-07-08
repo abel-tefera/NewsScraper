@@ -18,4 +18,4 @@ those objects into the database. The entries are read from the front-end and use
 *Make sure to import the sql file inside /resources and update the database parameters found in
 /app/config/config.php file*
 
-> To run, fire up your server and point your browser to https://localhost/NewsScraper
+> To run, fire up your server and point your browser to localhost/NewsScraper
