@@ -11,4 +11,4 @@
   define('APPVERSION', '1.0.0');
   define('PARENTSITE', "https://www.ethiopianreporter.com/zena");
   define('GITHUBREPO', "https://github.com/abel-tefera/NewsScraper");
-  define('BBCAMH', "https://www.bbc.com/amharic");
+  define('BBCAMH', "https://www.bbc.com/amharic/topics/e986aff5-6b26-4638-b468-371d1d9617b4");

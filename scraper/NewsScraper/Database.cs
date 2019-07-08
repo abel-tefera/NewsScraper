@@ -97,5 +97,16 @@ namespace NewsScraper
                 this.CloseConnection();
             }
         }
+
+        public void Delete()
+        {
+            string query = "DELETE FROM news_tbl";
+            if (this.OpenConnection() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.ExecuteNonQuery();
+                this.CloseConnection();
+            }
+        }
     }
 }

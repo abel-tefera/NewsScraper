@@ -19,6 +19,11 @@ namespace NewsScraper
             set { _entries = value; }
         }
 
+        public Scraper()
+        {
+            db.Delete();
+        }
+
         public void ScrapDataBBC(string page)
         {
             News news;
