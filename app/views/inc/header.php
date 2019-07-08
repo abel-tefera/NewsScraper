@@ -37,7 +37,7 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 
-                <span class="navbar-caption-wrap"><a target="_blank" class="navbar-caption text-white display-4" href="https://mobirise.co">
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="#">
                         NEWS SCRAPER</a></span>
             </div>
         </div>
