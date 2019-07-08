@@ -10,7 +10,7 @@
     public function getAllNews(){
       $this->db->query("SELECT *
                         FROM news_tbl 
-                        ORDER BY id DESC;");
+                        ORDER BY id DESC LIMIT 30;");
 
       $results = $this->db->resultset('news');
 
