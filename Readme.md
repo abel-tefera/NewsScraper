@@ -15,8 +15,8 @@ HtmlAgilityPack, in c#.
 The scraper scrapes news from the websites, makes news objects and inserts
 those objects into the database. The entries are read from the front-end and used to update the UI
 
-**The NewsScraper.exe file is automatically executed whenever the website's page is refreshed, 
-so it's *GUARANTEED* to fetech the latest available news from both websites. This application
+**The NewsScraper.exe file is automatically executed whenever the webpage is loaded or refreshed, 
+so it's *GUARANTEED* to fetch the latest available news from both websites. This application
 also automatically discards old sql data to save resources**
 
 *Make sure to import the sql file inside /resources and update the database parameters found in
