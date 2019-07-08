@@ -12,8 +12,10 @@ Website builder
 - The folder /scraper contains the web scraper which was implemented using 
 HtmlAgilityPack, in c#. 
 
-    The scraper scrapes news from the websites, makes news objects and inserts
+The scraper scrapes news from the websites, makes news objects and inserts
 those objects into the database. The entries are read from the front-end and used to update the UI
 
 *Make sure to import the sql file inside /resources and update the database parameters found in
 /app/config/config.php file*
+
+> To run, fire up your server and point your browser to [title]https://localhost/NewsScraper
