@@ -1,5 +1,5 @@
 # NewsScraper
-
+![Screenshot](public/Scraper.PNG)
 ## The program feteches the latest amharic news from ethiopianreporter.com and bbc amharic
 
 - The files found in /app are the main front-end components, which were made 
