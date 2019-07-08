@@ -9,6 +9,6 @@
   define('URLROOT', 'http://localhost/NewsScraper');
   define('SITENAME', 'News Scraper');
   define('APPVERSION', '1.0.0');
-  define('PARENTSITE', "https://www.ethiopianreporter.com");
+  define('PARENTSITE', "https://www.ethiopianreporter.com/zena");
   define('GITHUBREPO', "https://github.com/abel-tefera/NewsScraper");
   define('BBCAMH', "https://www.bbc.com/amharic");
