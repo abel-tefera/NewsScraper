@@ -55,9 +55,21 @@ namespace NewsScraper
             string header;
             string created_at;
             string content;
-            //int count = 1;
             var web = new HtmlWeb();
-            var doc = web.Load(page);
+            HtmlDocument doc;
+            //int count = 1;
+            try
+            {
+                doc = web.Load(page);
+                db.Delete();
+            }
+            catch (System.Net.WebException e)
+            {
+                doc = null;
+                Environment.Exit(0);
+            }
+
+
             Dictionary<string, string> imgLinks = new Dictionary<string, string>();
             var Articles = doc.DocumentNode.SelectNodes("//*[@class = 'post-content']");
             var Images = doc.DocumentNode.SelectNodes("//*[@class = 'field field--name-field-image field--type-image field--label-hidden field__item']");
