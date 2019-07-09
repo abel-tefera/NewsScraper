@@ -21,7 +21,7 @@ namespace NewsScraper
 
         public Scraper()
         {
-            db.Delete();
+            // db.Delete();
         }
 
         public void ScrapDataBBC(string page)
